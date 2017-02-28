@@ -1,0 +1,1 @@
+1..1024 | % {echo ((new-object Net.Sockets.TcpClient).Connect("10.0.2.5",$_)) "Port $_ is open!"} 2>$null 
